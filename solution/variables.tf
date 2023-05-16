@@ -13,3 +13,8 @@ variable "location" {
   type = string
   default = "eastus"
 }
+
+# variable "subnet_id" {
+#   type = string
+#   default = tolist(azurerm_virtual_network.network-existing.subnet)[0].id
+# }
